@@ -14,7 +14,8 @@
    System.out.println("str="+str);//디버깅할때 사용하는 방법
    out.println("<h1>"+"str="+str+"</h1>");//웹에 출력 document.write("str="+str);(자바스크립트로 웹에 출력)
   %>
-  <%=str%>
+ <hr>
+ str의 값출력=<%=str%>
 </body>
 </html>
 
