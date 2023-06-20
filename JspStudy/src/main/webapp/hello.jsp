@@ -22,6 +22,7 @@
      </script>
     */
   %>
+  <%=str%>
 </body>
 </html>
 
