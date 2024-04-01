@@ -10,7 +10,15 @@
 <title> Jsp 두번째 예제</title>
 </head>
 <body>
-   
+     <h2>전역변수와 지역변수</h2>
+     <%
+          String var2="JSP";
+     %>
+     <%
+          String var1=var2+" Web Programming";
+     %>
+     출력할값:<%=var1 %><br>
+     수식계산:<%=(3+5) %>
 	<%
 	    int count=3;//지역변수 개념
 		for(int i=0;i<count;i++){
