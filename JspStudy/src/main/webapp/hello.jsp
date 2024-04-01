@@ -19,6 +19,7 @@
     </script>
   */
  %>
+<%=str%>
 </body>
 </html>
 
